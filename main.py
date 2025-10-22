@@ -21,14 +21,17 @@ def menu():                      #Prints what tools have
 def selection():
     if x == 1:          #Opens tool 1
      cam()
+     loop()
     elif x == 2:        #Opens tool 2
      cam()
+     loop()
     elif x == 3:        #Opens tool 3
      cam()
+     loop()
     elif x == 4:        #Opens tool 4
      cam()
-    else:               #Exits
-     exit
+     loop()
+
     
 def cam():
  cap = cv.VideoCapture(0)
@@ -52,9 +55,18 @@ def cam():
  cap.release()                  #Stops capture
  cv.destroyAllWindows()         #Closes window
 
+def loop():
+    menu()
+    x = int(input())    #Waits until a number is written
+    selection()
+    if x != numberlist:
+        return False
+    
+
 while True:
     menu()
     x = int(input())    #Waits until a number is written
     selection()
     if x != numberlist:
         break
+    loop()
