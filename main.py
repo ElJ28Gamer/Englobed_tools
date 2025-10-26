@@ -58,7 +58,7 @@ def cam():
 
 def showifi():
     print("")
-    os.system("wifi.bat")
+    os.system("C://Users/Usuario/Desktop/Codes/Englobed_tools/wifi.bat")
     print("")
 
 def loop():
