@@ -27,10 +27,10 @@ def selection():
      showifi()
      loop()
     elif x == 3:        #Opens tool 3
-     cam()
+     showifi()
      loop()
     elif x == 4:        #Opens tool 4
-     cam()
+     showifi()
      loop()
 
     
