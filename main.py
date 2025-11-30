@@ -12,8 +12,8 @@ def menu():                      #Prints what tools have
     print("")
     print(" - Press 1 to open the camera")
     print(" - Press 2 to open a list of all the WIFI's you have connected to. (Only in Windows)")
-    print(" - Press 3 to ")
-    print(" - Press 4 to ")
+    print(" - Press 3 to open calculator (working on)")
+    print(" - Press 4 to Write a secret in csv (working on)")
     print(" - To exit, press Enter")
     print("")
     print("//  Englobed Tools  //")
@@ -27,10 +27,10 @@ def selection():
      showifi()
      loop()
     elif x == 3:        #Opens tool 3
-     showifi()
+     calculatorinit()
      loop()
     elif x == 4:        #Opens tool 4
-     showifi()
+     writesecrets()
      loop()
 
     
@@ -58,8 +58,14 @@ def cam():
 
 def showifi():
     print("")
-    os.system("C://Users/Usuario/Desktop/Codes/Englobed_tools/wifi.bat")
+   os.system("C://Users/Usuario/Desktop/Englobed_tools/wifi.bat")
     print("")
+
+def calculatorinit:
+    print("Press other things")
+
+def writesecrets:
+    print("Not right now")
 
 def loop():
     menu()
