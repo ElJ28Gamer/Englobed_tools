@@ -8,8 +8,8 @@ Write the number that corresponds to it and hit Enter. To exit the program DON'T
 # Tools
 - Camera
 - List of all the WIFI's you have connected to. (Only in Windows)
-- 3
-- 4
+- Calc (in progress)
+- Write secret in csv (in progress)
 
 ## Camera
 A camera tab will appear, just try it.
