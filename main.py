@@ -61,10 +61,10 @@ def showifi():
     os.system("C://Users/Usuario/Desktop/Englobed_tools/wifi.bat")
     print("")
 
-def calculatorinit:
+def calculatorinit():
     print("Press other things")
 
-def writesecrets:
+def writesecrets():
     print("Not right now")
 
 def loop():
